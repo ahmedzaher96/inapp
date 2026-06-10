@@ -1,1 +1,9 @@
-alert(22222222)
+
+
+alert(111)
+
+alert(localStorage.getItem("app-package_id"))
+
+alert(222)
+
+
