@@ -1,0 +1,324 @@
+
+
+body[app_dir='left'] #index_toolbar .toolbar-inner{direction:ltr!important;}
+body[app_dir='left'] #index_toolbar .toolbar-inner a{text-transform:capitalize!important;}
+
+body[app_dir='left'] #index_toolbar .tab-link p{text-transform:capitalize!important;}
+
+body[app_dir='left'] .dialog_bottom_area .button{padding:1px 0 0 0!important;text-transform:capitalize!important;}
+
+body[app_dir='left'] .navbar_right_text{text-transform:capitalize!important;font-weight:bold!important;}
+
+body[app_dir='left'] .line-divider{
+text-transform:capitalize!important;font-size:15px!important;direction:ltr!important;}
+body[app_dir='left'] .line_divider p{text-transform:capitalize!important;}
+body[app_dir='left'] .line-divider:before{margin:0.6px 12px 0 0!important;}
+body[app_dir='left'] .line-divider:after{margin:0.6px 0 0 12px!important;}
+
+body[app_dir='left'] #p8_ul_match_importance .item-title{margin-top:0.7px!important;}
+body[app_dir='left'] #p8_ul_match_importance{direction:ltr!important;}
+body[app_dir='left'] #p8_ul_match_importance .icon-radio{margin:0 9px 0 13.5px!important;}
+
+body[app_dir='left'] .navbar_title{
+font-size:21px!important;letter-spacing:0.7px!important;padding-top:1px!important;transform:scale(1,0.96)!important;}
+
+body[app_dir='left'] .no_internet_popup h1{font-size:21px!important;letter-spacing:0.7px!important;}
+body[app_dir='left'] .no_internet_popup p{letter-spacing:0.35px!important;}
+body[app_dir='left'] .no_internet_popup button{letter-spacing:1px!important;}
+
+body[app_dir='left'] #activation_popup .button{text-transform:capitalize!important;}
+body[app_dir='left'] #activation_popup_area_1 .button{padding-bottom:1px!important;}
+body[app_dir='left'] #activation_popup_area_1 h1,body[app_dir='left'] #activation_popup_area_1 h2,
+body[app_dir='left'] #activation_popup_area_2 h1{text-transform:capitalize!important;font-size:18px!important;}
+body[app_dir='left'] #activation_popup_type_1 input::placeholder{font-size:14px!important;margin-top:2px!important;}
+body[app_dir='left'] #activation_popup_type_1 .button:nth-of-type(2){padding-bottom:1px!important;}
+
+body[app_dir='left'] #activation_popup_type_2 .button,body[app_dir='left'] #activation_popup_type_3 .button,
+body[app_dir='left'] #activation_popup_type_4 .button,body[app_dir='left'] #activation_popup_type_5 .button,
+body[app_dir='left'] #activation_popup_type_6 .button,body[app_dir='left'] #activation_popup_type_7 .button,
+body[app_dir='left'] #activation_popup_type_8 .button{
+padding:0.5px 2px 1px!important;}
+
+body[app_dir='left'] #activation_popup_area_2 .button.popup-close{padding-bottom:0.3px!important;}
+
+body[app_dir='left']:not([device='ios']) .dialog_bottom_area .button{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .navbar_right_text{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .line-divider{letter-spacing:0.8px!important;}
+body[app_dir='left']:not([device='ios']) .line_divider p{letter-spacing:0.8px!important;}
+body[app_dir='left']:not([device='ios']) .navbar_title{letter-spacing:0.7px!important;}
+body[app_dir='left']:not([device='ios']) #activation_popup_area_1 .button{letter-spacing:0.5px!important;}
+body[app_dir='left']:not([device='ios']) #activation_popup_type_1 .button:nth-of-type(2){letter-spacing:0.4px!important;}
+body[app_dir='left']:not([device='ios']) .app_is_activated_dialog p{letter-spacing:1px;}
+
+/*=============================================================================================*/
+/*--------------------------------------  match_tab_page  -------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #match_tab_page .navbar .subnavbar .toolbar-inner{direction:ltr!important;}
+body[app_dir='left'] #match_tab_page .navbar .subnavbar .toolbar-inner a{text-transform:capitalize!important;}
+
+body[app_dir='left'] .p1_ul_match_title{direction:ltr!important;justify-content:left!important;font-size:12px!important;}
+body[app_dir='left'] .p1_ul_match_title img{margin:0.7px 0 0 10px!important;}
+body[app_dir='left'] .p1_ul_match_title p{padding:7.3px 6px 5.7px 9px!important;}
+body[app_dir='left'] .p1_ul_match_title p span{font-size:11.5px!important;}
+
+body[app_dir='left'] .p1_li_match{direction:ltr!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_team p{
+font-size:13px!important;letter-spacing:0!important;line-height:19px!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_team.home p{padding:0 2px 0 46px!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_team.away p{padding:0 46px 0 2px!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_team.home img{right:auto!important;left:10px!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_team.away img{left:auto!important;right:10px!important;}
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_middle_info_p2{font-size:10.7px!important;}
+body[app_dir='left'] .p1_li_match[live="1"] .p1_li_match_middle_info .rcicon:before{margin:1.3px 0 0 2.35px!important;}
+body[app_dir='left'] .p1_li_match[live="1"] .p1_li_match_middle_info_p1.result{direction:rtl!important;}
+body[app_dir='left'] .p1_li_match[live="1"] .p1_li_match_middle_info_p2{direction:rtl!important;}
+
+body[app_dir='left'] #match_tab_page[active_tab="tab3"] .p1_ul_match .p1_ul_match_title{
+justify-content:left!important;padding:0 45px 0 0!important;}
+
+body[app_dir='left'] #match_tab_page[active_tab="tab3"] .p1_ul_match .p1_ul_match_title h5{
+left:auto!important;right:12px!important;}
+
+body[app_dir='left'] #p1_today_fab p{text-transform:capitalize!important;
+margin:0 2.7px 0 0!important;padding-right:5px!important;font-size:11.7px!important;
+letter-spacing:0.1px!important;transform:scale(1,1.08)!important;height:14.6px!important;line-height:17px!important;}
+
+body[app_dir='left'] #p1_today_fab i{right:-7px!important;}
+
+body[app_dir='left'] #p1_note_area span p{text-transform:capitalize!important;}
+
+body[app_dir='left'] .p1_calendar .calendar-month-selector span{margin-top:-2px!important;}
+body[app_dir='left'] .p1_calendar .calendar-week-header{direction:ltr!important;}
+body[app_dir='left'] .p1_calendar .calendar-months{direction:ltr!important;}
+body[app_dir='left'] .calendar-week-header .calendar-week-day{font-size:12.5px!important;}
+
+body[app_dir='left'] #match_tab_page[active_tab="tab3"] .p1_ul_match_title .preloader{left:auto!important;right:13px!important;}
+
+body[app_dir='left'] #p1_date_header_middle p:nth-of-type(1){
+margin-top:0px!important;direction:ltr!important;text-overflow:ellipsis!important;overflow:hidden!important;}
+
+body[app_dir='left'] .p1_li_match_team.home .p1_li_match_live_stream_i{left:auto!important;right:6px!important;}
+body[app_dir='left'] .p1_li_match_team.away .p1_li_match_live_stream_i{right:auto!important;left:6px!important;}
+
+body[app_dir='left'] .p1_li_match:not([live="1"]) .p1_li_match_middle_info_p2.live{margin-right:0!important}
+
+body[app_dir='left']:not([device='ios']) #p1_note_area span p{letter-spacing:0.8px!important;}
+body[app_dir='left']:not([device='ios']) #p1_note_area span .button{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .p1_calendar .calendar-month-selector span{letter-spacing:0.7px!important;}
+body[app_dir='left']:not([device='ios']) .calendar-week-header .calendar-week-day{letter-spacing:0.7px!important;}
+body[app_dir='left']:not([device='ios']) #p1_date_header_middle p:nth-of-type(1){letter-spacing:0.5px!important;}
+
+/*=============================================================================================*/
+/*--------------------------------------  settings_page  --------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] .p7_buts_area h1{
+text-align:left!important;text-transform:capitalize!important;}
+
+body[app_dir='left'] .p7_buts_area .button{
+padding:0 0 0 12px!important;justify-content:left!important;direction:ltr!important;}
+
+body[app_dir='left'] .p7_buts_area .button p{
+margin:1px 0 0 5px!important;text-transform:capitalize!important;padding:10.5px 10px 9.5px 0!important;}
+
+body[app_dir='left'] #p7_but4_toggle{left:auto!important;right:30px!important;}
+
+body[app_dir='left'] #p7_but5_timezone{left:auto!important;right:30px!important;}
+
+body[app_dir='left'] .p7_dialog1_radio_area .button > p{padding:0 6px!important;text-transform:capitalize!important;}
+
+body[app_dir='left'] #p7_but13 img{margin:1px 2.4px 0 1.6px!important;}
+
+body[app_dir='left']:not([device='ios']) .p7_buts_area h1{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .p7_buts_area .button p{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .p7_dialog1_radio_area .button > p{letter-spacing:1px!important;}
+
+/*=============================================================================================*/
+/*------------------------------------  push_control_page  ------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #push_control_page .page-content h1{text-align:left!important;text-transform:capitalize!important;}
+
+body[app_dir='left'] #push_control_page .page-content ul li{direction:ltr!important;}
+
+body[app_dir='left'] #push_control_page .page-content ul li p{
+margin:auto 0 auto 15px!important;text-transform:capitalize!important;}
+
+body[app_dir='left'] #push_control_page .page-content ul li .toggle{left:auto!important;right:18px!important;}
+
+body[app_dir='left'] #push_control_page .page-content h2{text-transform:capitalize!important;}
+
+body[app_dir='left'] #p8_open_favorite_team_but{padding:1px 16px 0!important;}
+
+body[app_dir='left'] #p9_messenger_but{direction:ltr!important;text-transform:capitalize!important;}
+body[app_dir='left'] #p9_messenger_but p{margin:0!important;}
+body[app_dir='left'] #p9_messenger_but i{margin:1px 0 0 7px!important;}
+
+body[app_dir='left']:not([device='ios']) #push_control_page .page-content ul li p{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) #push_control_page .page-content h2{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) #p9_or_line_divider p{letter-spacing:1.5px!important;}
+
+/*=============================================================================================*/
+/*--------------------------------------  news_tab_page  --------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #p5_toolbar .toolbar-inner{direction:ltr!important;}
+
+body[app_dir='left'] #p5_toolbar .button[type='country'][type_id='EG'],
+body[app_dir='left'] #p5_toolbar .button[type='country'][type_id='SA'],
+body[app_dir='left'] #p5_toolbar .button[type='country'][type_id='MA'],
+body[app_dir='left'] #p5_toolbar .button[type='country'][type_id='DZ'],
+body[app_dir='left'] #p5_toolbar .button[type='country'][type_id='TN']{display:none!important;}
+
+body[app_dir='left'] .p5_li_news_time{
+left:auto!important;right:0!important;direction:ltr!important;border-radius:0 0 0 4px!important;
+padding:0 5px 0 4.7px!important;font-size:9.5px!important;height:18px!important;}
+
+body[app_dir='left'] .p5_li_news_title{padding:6.5px 10px 6.5px!important;}
+
+body[app_dir='left']:not([device='ios']) .p5_li_news_time{letter-spacing:0.2px!important;}
+
+/*=============================================================================================*/
+/*------------------------------------  news_details_page  ------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #p6_news_date{justify-content:left!important;direction:ltr!important;margin:2px 0px 0 -2px!important;}
+body[app_dir='left'] #p6_news_date p{margin:2.5px 0 0 4px!important;}
+
+body[app_dir='left'] #p6_news_title{text-align:left!important;direction:ltr!important;}
+
+body[app_dir='left'] #p6_news_content p,body[app_dir='left'] #p6_news_content li,
+body[app_dir='left'] #p6_news_content a,body[app_dir='left'] #p6_news_content > div{
+text-align:left!important;direction:ltr!important;font-size:15.8px!important;margin:10px 0!important;}
+
+body[app_dir='left'] #p6_news_content p span{color:var(--mode_wob_color)!important;font-weight:normal!important;}
+
+body[app_dir='left'] #p6_open_source_but{right:auto!important;left:5px!important;}
+body[app_dir='left'] #p6_open_source_but i{margin:1px 7px 0 -1px!important;}
+
+body[app_dir='left'] #p6_share_but{left:auto!important;right:5px!important;}
+body[app_dir='left'] #p6_share_but i{margin:1.8px 5px 0 -2px!important;}
+
+body[app_dir='left'] #p6_news_under_content{direction:ltr!important;}
+body[app_dir='left'] #p6_news_under_content .button p{margin-top:1px!important;}
+
+body[app_dir='left'] #p6_more_news_area h1{
+text-align:left!important;margin-right:2px!important;font-size:14px!important;}
+
+body[app_dir='left'] .p6_li_more_news{justify-content:left!important;direction:ltr!important;}
+
+body[app_dir='left'] .p6_li_more_news p{
+font-size:14px!important;text-align:right!important;margin:1px 0 0 8px!important;text-align:left!important;}
+
+body[app_dir='left'] #p6_news_content table tr th,#p6_news_content table tr td{padding:2.5px 0 0 10px!important;}
+
+body[app_dir='left']:not([device='ios']) #p6_news_title{letter-spacing:0.8px!important;}
+body[app_dir='left']:not([device='ios']) #p6_news_under_content .button p{letter-spacing:0.7px!important;}
+body[app_dir='left']:not([device='ios']) #p6_more_news_area h1{letter-spacing:0.7px!important;}
+body[app_dir='left']:not([device='ios']) .p6_li_more_news p{letter-spacing:0.5px!important;}
+
+/*=============================================================================================*/
+/*------------------------------------  match_details_page  -----------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #match_details_page .subnavbar .toolbar-inner{direction:ltr!important;justify-content:left!important;}
+body[app_dir='left'] #match_details_page .subnavbar .toolbar-inner a{text-transform:capitalize!important;}
+
+body[app_dir='left'] #p2_navbar_area{direction:ltr!important;}
+
+body[app_dir='left'] #p2_navbar_info p.result{direction:rtl!important;}
+
+body[app_dir='left'] #p2_tabs_area{direction:ltr!important;}
+
+body[app_dir='left'] .p2_li_highlights > p{text-align:start!important;unicode-bidi:plaintext!important;}
+
+body[app_dir='left'] #p2_open_channel_popup_but{height:38px!important;transform:none!important;}
+
+body[app_dir='left'] #p2_channel_not_active_but{transform:none!important;font-size:15px!important;padding:0 14px 0.7px!important;}
+
+body[app_dir='left'] #p2_tab_standings .standing_main_area{direction:rtl!important;}
+
+body[app_dir='left'] #p2_t1div3_open_standings:after{transform:scale(-1,1)!important;}
+
+body[app_dir='left'] .p2_t1div4_divs i{margin:0 7px 0 9px!important;}
+
+body[app_dir='left'] .p2_t1div2_result_div span[type="w"]:after{content:"W"!important;}
+body[app_dir='left'] .p2_t1div2_result_div span[type="d"]:after{content:"D"!important;}
+body[app_dir='left'] .p2_t1div2_result_div span[type="l"]:after{content:"L"!important;}
+body[app_dir='left'] .p2_t1div2_result_div{float:left!important;direction:rtl!important;justify-content:flex-end!important;}
+body[app_dir='left'] .p2_t1div2_result_div.home{padding-right:0!important;padding-left:10px!important;}
+body[app_dir='left'] .p2_t1div2_result_div.away{padding-left:0!important;padding-right:10px!important;}
+
+body[app_dir='left'] #p2_t1div1 .segmented .button:first-child{
+border-radius:var(--f7-button-border-radius) 0 0 var(--f7-button-border-radius)!important;}
+body[app_dir='left'] #p2_t1div1 .segmented .button:last-child{
+border-radius:0 var(--f7-button-border-radius) var(--f7-button-border-radius) 0!important;}
+
+body[app_dir='left'] .p2_t1div1_event_div.home:after{left:auto!important;right:calc(-45px/2)!important;}
+body[app_dir='left'] .p2_t1div1_event_div.away:after{right:auto!important;left:calc(-45px/2)!important;}
+
+body[app_dir='left'] .p2_t1div1_event_div.home{direction:rtl!important;padding-left:0!important;padding-right:23px!important;}
+body[app_dir='left'] .p2_t1div1_event_div.away{
+margin-right:0!important;padding-right:0!important;margin-left:50%!important;padding-left:23px!important;}
+body[app_dir='left'] .p2_t1div1_event_div.home p{margin:-1px 29px 0 0!important;}
+body[app_dir='left'] .p2_t1div1_event_div.away p{margin:-1px 0 0 29px!important;}
+
+body[app_dir='left'] #p2_t2div1_lineup_area{direction:rtl!important;}
+body[app_dir='left'] #p2_t2div1_lineup_segmented .button.home:after{text-align:left!important;}
+body[app_dir='left'] #p2_t2div1_lineup_segmented .button.away:after{text-align:right!important;}
+body[app_dir='left'] .p2_t2_player_area{float:left!important;}
+body[app_dir='left'] .p2_t2_player_area.away{direction:rtl!important;}
+
+body[app_dir='left'] .p2_t3div1_gauge_area h1{top:36px!important;font-size:12.5px!important;}
+body[app_dir='left'] .p2_t3div1_statistics_area span{margin-right:0!important;margin-left:43px!important;}
+
+body[app_dir='left'] .p2_t3div1_gauge_area p:first-of-type{right:auto;left:0px;}
+body[app_dir='left'] .p2_t3div1_gauge_area p:last-of-type{left:auto;right:0px;}
+body[app_dir='left'] .p2_t3div1_statistics_area p:first-of-type{right:auto;left:8px;}
+body[app_dir='left'] .p2_t3div1_statistics_area p:last-of-type{left:auto;right:8px;}
+
+body[app_dir='left'] .segmented .button-outline:nth-child(n+2){border-right:1.6px solid!important;border-left:none!important;}
+
+body[app_dir='left']:not([device='ios']) .p2_t3div1_gauge_area h1{letter-spacing:0.3px!important;}
+
+/*=============================================================================================*/
+/*--------------------------------------  video_tab_page  -------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] .p13_li_video_time{
+left:auto!important;right:0!important;direction:ltr!important;border-radius:0 0 0 4px!important;
+padding:0 5px 0 4.7px!important;font-size:9.5px!important;height:18px!important;}
+
+body[app_dir='left'] .p13_li_video_title{padding:6.5px 10px 7.5px!important;}
+
+body[app_dir='left']:not([device='ios']) .p13_li_video_time{letter-spacing:0.2px!important;}
+
+/*=============================================================================================*/
+/*-------------------------------------  channel_tab_page  ------------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] .p17_ul_channel ol{justify-content:left!important;direction:ltr!important;}
+body[app_dir='left'] .p17_li_channel{justify-content:left!important;direction:ltr!important;}
+body[app_dir='left'] .p17_li_channel img{margin-right:0!important;margin-left:12px!important;}
+body[app_dir='left'] .p17_li_channel p{margin-right:0!important;margin-left:14px!important;direction:ltr!important;}
+
+body[app_dir='left']:not([device='ios']) #p17_top_text{letter-spacing:1px!important;}
+body[app_dir='left']:not([device='ios']) .p17_li_channel p{letter-spacing:0.7px!important;}
+
+/*=============================================================================================*/
+/*-----------------------------------  channel_details_page  ----------------------------------*/
+/*=============================================================================================*/
+
+body[app_dir='left'] #p14_chanpop_reload_but,body[app_dir='left'] #p14_chanpop_close_but{padding-bottom:0.3px!important;}
+body[app_dir='left'] #p14_chanpop_reload_but:before,body[app_dir='left'] #p14_chanpop_close_but:after{margin-top:0!important;}
+
+body[app_dir='left'] #p14_chanpop_reload_but:before{margin-left:5px!important;}
+body[app_dir='left'] #p14_chanpop_close_but:after{margin-right:5px!important;}
+
+body[app_dir='left'] #p14_chanpop_fixed_server_area{direction:ltr!important;}
+body[app_dir='left'] #p14_chanpop_static_server_area{direction:ltr!important;}
+
+
+
+
