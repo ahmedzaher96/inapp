@@ -1,0 +1,94 @@
+
+
+@font-face{ font-family:myfont1; src:url(../../library/arabic-fonts/NeoSansArabic.ttf); }
+@font-face{ font-family:myfont2; src:url(../../library/arabic-fonts/GEDinarOne-Medium.ttf); }
+@font-face{ font-family:myfont3; src:url(../../library/arabic-fonts/DroidKufi-Bold.ttf); }
+@font-face{ font-family:myfont4; src:url(../../library/arabic-fonts/NizarCoconKurdish-Bold.otf); }
+
+/* mode_theme_color */
+
+:root{
+
+--f7-theme-color:#5e2e9b;
+--mode_theme_color:#5e2e9b;
+--mode_bg_color1:#ffffff;
+--mode_bg_color2:#ebeef3;
+--mode_shadow_color:rgba(200, 200, 200, 0.4);
+--mode_wob_color:#000000;
+
+}
+
+:root{
+
+--dark-theme-color:#300b5f;
+--dark_bg_color1:#20272d;
+--dark_bg_color2:#1f2024;
+--dark_shadow_color:rgb(25, 25, 25);
+--dark_wob_color:#fdfdfd;
+--dark_wob_color2:#000000;
+
+--light-theme-color:#5e2e9b;
+--light_bg_color1:#ffffff;
+--light_bg_color2:#ebeef3;
+--light_shadow_color:rgba(200, 200, 200, 0.4);
+--light_wob_color:#000000;
+--light_wob_color2:#fdfdfd;
+
+--gray_color1:#8da1b0;
+--gray_color2:#7e97ab;
+--gray_color_rgb:141,161,176;
+
+--purple_color:#5e2e9b;
+--blue_color:#1c7ed6;
+--blue_color2:#00a2ff;
+--rose_color:#ff2d55;
+--teal_color:#009688;
+--teal_color2:#08b3a3;
+--violet_color:#864bec;
+
+--green_color:#39b738;
+--orange_color:#f3bb13;
+--orange_color2:#d78e0c;
+--red_color:#ff0d00;
+
+}
+
+
+:root{
+--f7-bars-bg-color: var(--f7-theme-color);
+--f7-bars-bg-color-rgb: var(--f7-theme-color-rgb);
+--f7-bars-translucent-opacity: 0.9;
+--f7-bars-text-color: #fff;
+--f7-bars-link-color: #fff;
+--f7-navbar-subtitle-text-color: rgba(255,255,255,0.85);
+--f7-bars-border-color: transparent;
+--f7-tabbar-link-active-color: #fff;
+--f7-tabbar-link-inactive-color: rgba(255,255,255,0.54);
+--f7-sheet-border-color: transparent;
+--f7-tabbar-link-active-border-color: #fff;
+}
+
+.appbar,.navbar,.toolbar,.subnavbar,.calendar-header,.calendar-footer{
+--f7-touch-ripple-color: var(--f7-touch-ripple-white);
+--f7-link-highlight-color: var(--f7-link-highlight-white);
+--f7-button-text-color: #fff;
+--f7-button-pressed-bg-color: rgba(255,255,255,0.1);
+}
+
+
+.click_color{--f7-theme-color-rgb:94,46,155!important;}
+body[app_color='blue'] .click_color{--f7-theme-color-rgb:28,126,214!important;}
+body[app_color='green'] .click_color{--f7-theme-color-rgb:59,131,89!important;}
+
+.click_color.active-state{color:var(--mode_wob_color)!important;}
+
+.gray_click{--f7-theme-color-rgb:141,161,176!important;}
+
+.blue_click{--f7-theme-color-rgb:28,126,214!important;}
+
+
+
+
+
+
+
