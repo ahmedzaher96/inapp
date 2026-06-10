@@ -21,7 +21,13 @@
 
 alert(111)
 
-alert(localStorage.getItem("app-package_id"))
+const params = new URLSearchParams(location.search);
+
+const packageId = params.get("app-package_id");
+const device = params.get("app-device");
+
+alert(packageId);
+
 
 alert(222)
 
